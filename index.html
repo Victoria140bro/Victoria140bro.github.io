@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R.A.J DIGITAL WEALTH LLC</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #FFD400;
+    color: #111;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #FFD400;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+    z-index: 1000;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+section {
+    padding: 100px 10%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('https://images.unsplash.com/photo-1579621970795-87facc2f976d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.block-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.center-text {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #111;
+    color: white;
+    padding: 40px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.process-step {
+    background: white;
+    padding: 30px;
+    border-left: 6px solid #111;
+}
+
+.contact-full {
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background: #FFD400;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">Who We Are</a>
+    <a href="#services">Solutions</a>
+    <a href="#advantages">Why Us</a>
+    <a href="#process">Our Process</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h1>R.A.J DIGITAL WEALTH LLC</h1>
+    <p>Strategic Business Support and Precision Financial Advisory for Growth-Focused Companies. 
+    We help entrepreneurs, private investors, and scaling organizations structure capital, optimize financial performance, and build sustainable wealth systems in an increasingly digital economy.</p>
+</section>
+
+<section id="about">
+    <h2 class="block-title">Built for Ambitious Growth</h2>
+    <div class="center-text">
+        R.A.J DIGITAL WEALTH LLC is a U.S.-based consulting firm focused on business structuring, financial strategy, and investment guidance for small to mid-sized enterprises. 
+        We work directly with founders and executive teams to improve cash flow visibility, optimize capital allocation, and create structured financial roadmaps. 
+        Our approach combines analytical precision with practical implementation. 
+        We prioritize measurable financial outcomes, risk-managed growth, and long-term sustainability. 
+        Every strategy we design is customized to the operational reality of each client. 
+        We do not provide generic advice — we engineer financial clarity.
+    </div>
+</section>
+
+<section id="services">
+    <h2 class="block-title">Strategic Financial Solutions</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Business Financial Structuring</h3>
+            <p>We design internal financial frameworks that improve reporting accuracy and cash flow management. 
+            Our team analyzes operational costs, revenue streams, and capital efficiency. 
+            The result is a clear structure that supports scaling and investor readiness.</p>
+        </div>
+        <div class="card">
+            <h3>Investment Advisory</h3>
+            <p>We provide data-driven investment guidance aligned with defined risk tolerance and growth objectives. 
+            Portfolio positioning focuses on capital preservation and calculated expansion. 
+            Every recommendation is supported by financial modeling and scenario planning.</p>
+        </div>
+        <div class="card">
+            <h3>Corporate Finance Consulting</h3>
+            <p>We assist companies with financial forecasting, debt structuring, and capital raising strategy. 
+            Our advisory includes valuation insight and funding preparation. 
+            We ensure financial decisions are aligned with long-term enterprise value creation.</p>
+        </div>
+    </div>
+</section>
+
+<section id="advantages">
+    <h2 class="block-title">Why Industry Leaders Choose Us</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Analytical Discipline</h3>
+            <p>All recommendations are supported by quantitative analysis and financial modeling. 
+            Decisions are data-backed, not assumption-based.</p>
+        </div>
+        <div class="card">
+            <h3>Confidential & Secure</h3>
+            <p>We operate with strict confidentiality standards. 
+            Client financial data is treated with maximum discretion and professional integrity.</p>
+        </div>
+        <div class="card">
+            <h3>Execution-Oriented</h3>
+            <p>We move beyond advisory reports and assist with structured implementation. 
+            Strategy without execution has no value — we deliver both.</p>
+        </div>
+    </div>
+</section>
+
+<section id="process">
+    <h2 class="block-title">Our Engagement Framework</h2>
+    <div class="cards">
+        <div class="process-step">
+            <h3>01 — Financial Assessment</h3>
+            <p>We conduct a structured review of financial statements, operational metrics, and capital structure.</p>
+        </div>
+        <div class="process-step">
+            <h3>02 — Strategic Modeling</h3>
+            <p>We build financial projections and risk scenarios to identify optimal strategic pathways.</p>
+        </div>
+        <div class="process-step">
+            <h3>03 — Implementation & Oversight</h3>
+            <p>We support execution, performance tracking, and strategic adjustments as your business evolves.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact-full" id="contact">
+    <h2 class="block-title">Let’s Build Financial Clarity</h2>
+    <p>For direct inquiries, partnership discussions, or advisory engagement requests, contact us via email. 
+    We respond promptly to serious business proposals and confidential financial consultations. 
+    Strategic growth begins with a focused conversation.</p>
+    <p><strong>Email:</strong> info@rajdigitalwealth.digital</p>
+    <p><strong>Address:</strong> 11 Stimens Dr APT 4 Mansfield, OH, 44907 US</p>
+</section>
+
+<section>
+    <h2 class="block-title">Request a Consultation</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea rows="4" placeholder="Briefly describe your financial goals or business needs"></textarea>
+        <button type="submit">Submit Inquiry</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 R.A.J DIGITAL WEALTH LLC. All Rights Reserved.
+</footer>
+
+</body>
+</html>
